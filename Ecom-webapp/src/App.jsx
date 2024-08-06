@@ -2,8 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import login from './components/login'
-// import Login from '../src/components/Login'
+import Login from './containers/Login'
+import Signup from './containers/Signup'
+import ProductList from './containers/ProductList'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +14,9 @@ function App() {
     <>
       <div>
         <h1>E-shopty</h1>
-        <login />
+        <Login />
+        <Signup />
+        <ProductList />
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
