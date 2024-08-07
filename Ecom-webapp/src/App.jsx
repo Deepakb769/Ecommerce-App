@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Login from './containers/Login'
-import Signup from './containers/Signup'
-import ProductList from './containers/ProductList'
+import Login from './components/Login'
+import Signup from './components/Signup'
+import ProductList from './components/ProductList'
 
 
 function App() {
