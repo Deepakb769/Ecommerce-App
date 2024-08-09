@@ -1,0 +1,31 @@
+*{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.navLogo{
+    width: 20%;
+}
+.navLogo img{
+    width: 100px;
+}
+.navMenu{
+    width: 60%;
+}
+.navMenu ul{
+    display: flex;
+    justify-content: space-around;
+}
+/* .navMenu li{
+    margin: 0 10px;
+} */
+.authenticBtn{
+    width: 20%;
+}
+
+.authenticBtn button{
+    margin: 0 10px;
+}
