@@ -1,0 +1,50 @@
+*{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(22, 22, 67);
+    color: white;
+    padding: 10px;
+}
+.navLogo{
+    width: 20%;
+}
+.navLogo img{
+    width: 80px;
+}
+.navMenu{
+    width: 60%;
+}
+.navMenu ul{
+    display: flex;
+    justify-content: space-around;
+}
+/* .navMenu li{
+    margin: 0 10px;
+} */
+.authenticBtn{
+    width: 20%;
+}
+
+.authenticBtn button{
+    margin: 0 10px;
+}
+
+.products{
+    display: flex;
+    margin: 0 60px;
+    flex-wrap: wrap;
+}
+
+.products img{
+    /* width: 250px; */
+}
+.product-1{
+    padding: 5px 20px;
+}
+.product-1 img{
+    width: 250px;
+}
