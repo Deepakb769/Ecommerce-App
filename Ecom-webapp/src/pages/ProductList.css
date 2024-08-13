@@ -16,17 +16,18 @@
     width: 80px;
 }
 .navMenu{
-    width: 60%;
+    width: 70%;
 }
 .navMenu ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-/* .navMenu li{
-    margin: 0 10px;
-} */
+li.cart-icon {
+    font-size: 30px;
+}
 .authenticBtn{
-    width: 20%;
+    width: 10%;
+    display: flex;
 }
 
 .authenticBtn button{
@@ -40,10 +41,14 @@
 }
 
 .products img{
-    /* width: 250px; */
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+ 
 }
 .product-1{
     padding: 5px 20px;
+    width: 265px;
 }
 .product-1 img{
     width: 250px;
